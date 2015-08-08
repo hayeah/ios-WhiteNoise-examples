@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bau-2u-KaR">
-                                <rect key="frame" x="200" y="245" width="180" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bau-2u-KaR">
+                                <rect key="frame" x="210" y="275" width="180" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vA-cX-ruc">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -35,6 +35,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bau-2u-KaR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FRj-j8-9Q2"/>
+                            <constraint firstItem="bau-2u-KaR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kAV-Tz-ZXb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
