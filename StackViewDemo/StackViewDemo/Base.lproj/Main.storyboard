@@ -16,21 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bau-2u-KaR">
-                                <rect key="frame" x="200" y="245" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bau-2u-KaR">
+                                <rect key="frame" x="200" y="245" width="180" height="50"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vA-cX-ruc">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" red="0.3719537819" green="1" blue="0.61619069110000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiV-dk-0sG">
+                                        <rect key="frame" x="65" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.64717153189999999" blue="0.52732364109999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EEA-cV-xrp">
+                                        <rect key="frame" x="130" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" red="0.57895728700000004" green="0.68887273770000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EEA-cV-xrp">
-                                <rect key="frame" x="158" y="88" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.57895728700000004" green="0.68887273770000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiV-dk-0sG">
-                                <rect key="frame" x="263" y="48" width="50" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.64717153189999999" blue="0.52732364109999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vA-cX-ruc">
-                                <rect key="frame" x="373" y="88" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.3719537819" green="1" blue="0.61619069110000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
